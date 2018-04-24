@@ -1,73 +1,115 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>胡坡的主页</title>
-	<style>
-		ul{margin:0;
-		   padding:0;}
-		li{list-style-type:none;
-		   float:left;}
-		#daohang a{ display: block;/*将a变成块状*/  
-            		width: 100px;/*设置块的宽度*/  
-					height: 50px;/*设置块的长度*/  
-            		font-family: Microsoft Yahei;  
-            		line-height: 50px;/*设置字体在块中的高度*/  
-            		background-color: #2f4f4f;  
-            		margin: 0px 0px;/*块里的高宽通过margin设置*/  
-            		color: #fff;  
-            		text-align: center;/*字体居中*/  
-            		text-decoration: none;/*去掉下划线*/  
-            		font-size: 15px;  
-        	 }  
-		#daohang a:hover{background-color:#2f6f4f;}
-		#rightli li{list-style-type:none;
-		   float:left;
-		   width:500px}
-	</style>
-
+    <meta charset="UTF-8">
+    <title>首页实战</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="total.css">
 </head>
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="image/logo.jpg" alt="logo" id="logo">
+            <ul id="nav">
+                <li><a href="#">导航1</a></li>
+                <li><a href="#">导航2</a></li>
+                <li><a href="#">导航3</a></li>
+                <li><a href="#">导航4</a></li>
+                <li><a href="#">导航5</a></li>
+                <li><a href="#">导航6</a></li>
+                <li><a href="#">导航7</a></li>
+            </ul>
+        </div>
+        <img src="image/about_banner.jpg" alt="" id="banner">
+        <div id="main">
+            <div id="lside">
+                <div class="subtitle">
+                    <img src="image/circle.gif" alt="">
+                    <h1>核心课程</h1>
+                    <a href="#">MORE&gt&gt</a>
+                </div>
+                <div class="four">
+                    <h2>Python教程</h2>
+                    <img src="image/eshop_service.jpg" alt="">
+                    <ul>
+                        <li><a href="#">方便管理1</a></li>
+                        <li><a href="#">方便管理2</a></li>
+                        <li><a href="#">方便管理3</a></li>
+                        <li><a href="#">方便管理4</a></li>
+                        <li><a href="#">方便管理5</a></li>
+                    </ul>
+                </div>
+                <div class="four">
+                    <h2>机器学习</h2>
+                    <img src="image/eshop_service.jpg" alt="">
+                    <ul>
+                        <li><a href="#">方便管理1</a></li>
+                        <li><a href="#">方便管理2</a></li>
+                        <li><a href="#">方便管理3</a></li>
+                        <li><a href="#">方便管理4</a></li>
+                        <li><a href="#">方便管理5</a></li>
+                    </ul>
+                </div>
+                <div class="four">
+                    <h2>数据结构</h2>
+                    <img src="image/eshop_service.jpg" alt="">
+                    <ul>
+                        <li><a href="#">方便管理1</a></li>
+                        <li><a href="#">方便管理2</a></li>
+                        <li><a href="#">方便管理3</a></li>
+                        <li><a href="#">方便管理4</a></li>
+                        <li><a href="#">方便管理5</a></li>
+                    </ul>
+                </div>
+                <div class="four">
+                    <h2>Java教程</h2>
+                    <img src="image/eshop_service.jpg" alt="">
+                    <ul>
+                        <li><a href="#">方便管理1</a></li>
+                        <li><a href="#">方便管理2</a></li>
+                        <li><a href="#">方便管理3</a></li>
+                        <li><a href="#">方便管理4</a></li>
+                        <li><a href="#">方便管理5</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="rside">
+                <div class="subtitle">
+                    <img src="image/circle.gif" alt="">
+                    <h1>文章观点</h1>
+                    <a href="#">MORE&gt&gt</a>
+                </div>
+                <ul id="art">
+                    <li><a href="#">这是一篇好文章1</a></li>
+                    <li><a href="#">这是一篇好文章2</a></li>
+                    <li><a href="#">这是一篇好文章3</a></li>
+                    <li><a href="#">这是一篇好文章4</a></li>
+                    <li><a href="#">这是一篇好文章5</a></li>
+                </ul>
+                <div class="subtitle">
+                    <img src="image/circle.gif" alt="">
+                    <h1>联系我们</h1>
+                    <a href="#">MORE&gt&gt</a>
+                </div>
+                <div id="contact">
 
-<body style="background-color:#fff;padding:0;margin:0;">	
-	
-<div id="daohang">
-		<ul>
-		<li style="font-size:40px;color:red;"><a herf="">胡坡的主页</a><li>
-		<li><a herf="">Python教程</a><li>
-		<li><a herf="">Git教程</a><li>
-		<li><a herf="">Java教程</a><li>
-		<li><a herf="">c++教程</a><li>
-		<li><a herf="">编程交流</a><li>
-		<li><a herf="">赞助</a><li>
-		<li><a herf="">About me</a><li>
-		<li><a herf=""></a><li>
-		<li><a herf=""></a><li>
-		<li><a herf=""></a><li>
-		<li><a herf=""></a><li>
-		<li><a herf=""></a><li>
-		</ul>
-	</div>
-<br/>
-<div id ="geren">
-<br /><br />
-<a href="https://www.baidu.com"target="blank"><img src="my.jpg"width="150"height="165"/></a>
-<p>我的邮箱：<a href="https://mail.163.com/"style="text-decoration:none"target="blank">hupo4210@163.com</a>
-<br/>我的电话：18317857809
-<br/>毕业学校：<a href="http://www.henu.edu.cn/"style="text-decoration:none"target="blank">河南大学</a>
-<br/>研究方向：<a href="https://baike.baidu.com/item/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/217599?fr=aladdin"style="text-decoration:none"target="blank">机器学习</a>
-<a href="https://baike.baidu.com/item/%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD/5928542?fr=aladdin"style="text-decoration:none"target="blank">故障诊断</a></p>
-</div>
-<hr/>
-<p style="font-size:30px"><b>春晓</b></p>
-<a href="#常用工具">工具</a>
-<br/><br/><br/><br/><br/><br/><br/><br/>
-
-<p>春眠不觉晓，处处闻啼鸟。<br/>夜来风雨声，花落知多少。</p>
-
-<h2><a name="常用工具">常用工具</a></h2>
-<hr/>
-<br/>
-<a href="https://translate.google.cn/#en/zh-CN/We%20recommend%20every%20repository%20include">谷歌翻译</a>
-<table border="1"></table>
+                </div>
+            </div>
+            <div class="clr"></div>
+        </div>
+        <div id="footer">
+            <ul>
+                <li><a href="">联系我们1</a></li>
+                <li><a href="">联系我们2</a></li>
+                <li><a href="">联系我们3</a></li>
+                <li><a href="">联系我们4</a></li>
+                <li><a href="">联系我们5</a></li>
+                <li><a href="">联系我们6</a></li>
+                <li><a href="">联系我们7</a></li>
+            </ul>
+            <br>
+            <address>&copy;2018-2019 hupo 版权所有 http:www.pogetech.com</address>
+        </div>
+    </div>
 </body>
 </html>

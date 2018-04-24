@@ -1,0 +1,152 @@
+.clr{
+    clear: both;
+}
+#container{
+    margin: 0 auto;
+    position: center;
+    width: 1002px;
+}
+#header{
+    height: 128px;
+    background: gray url("image/top_bg.jpg");
+}
+#nav li{
+    width: 90px;
+    margin-right: 1px;
+    float: left;
+}
+#nav a{
+    font-size: 17px;
+    line-height: 37px;
+    color: #363636;
+    /*a标签(是内联元素)强制转换成块状*/
+    display: block;
+    width: 90px;
+    height: 37px;
+    text-align: center;
+    text-decoration: none;
+
+}
+#nav a:hover{
+    color: white;
+    background: url("image/nav_on.gif");
+}
+#banner{
+    margin-top: 6px;
+}
+#main{
+
+}
+#lside{
+    width: 694px;
+    height: 480px;
+    border: 1px solid #eee;
+    float: left;
+    border-top: none;
+}
+.subtitle{
+    height: 37px;
+    background: gray url("image/index_main_top_bg.gif");
+}
+.subtitle img{
+    margin: 5px 0 0 10px;
+    float: left;
+}
+.subtitle h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    float: left;
+}
+.subtitle a{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+    float: right;
+}
+.four{
+    width: 326px;
+    height: 200px;
+    background: #EEE;
+    float: left;
+    margin: 10px;
+}
+.four img{
+    float: left;
+    margin: 10px;
+    padding: 6px;
+    background: white;
+}
+.four ul{
+    float: left;
+    margin-left: 6px;
+}
+.four li{
+    background: url("image/service_intro_bg.gif") no-repeat;
+    padding-left: 10px;
+    height: 20px;
+}
+.four a{
+    color: #888;
+}
+.four a:visited{
+    color: #808080;
+}
+.four a:hover{
+    color: #ff832c;
+}
+
+.four h2{
+    color: #A0A0A0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#rside{
+    width: 294px;
+    float: right;
+}
+#art {
+    background: #eee;
+    margin-top: 1px;
+    padding-top: 10px;
+}
+#art a{
+    color: #888;
+    line-height: 29px;
+    display: block;
+    height: 29px;
+    padding-left: 30px;
+    background: url("image/article_head.gif") no-repeat;
+}
+#art a:hover{
+    color: #ff832c;
+    background: url("image/article_on_bg.gif");
+}
+#contact{
+    margin-top: 2px;
+    height: 250px;
+    background: #eee;
+}
+#footer{
+    margin-top: 10px;
+    background: #eee;
+    height: 80px;
+}
+#footer ul{
+    height: 20px;
+    background: #eee;
+}
+#footer li{
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+#footer a:hover{
+    color: #ff832c;
+}
+#footer address{
+    margin-left: 20px;
+
+}
