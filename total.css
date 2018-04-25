@@ -80,6 +80,7 @@
 }
 .four ul{
     float: left;
+    margin-top: 15px;
     margin-left: 6px;
 }
 .four li{
@@ -127,6 +128,15 @@
     margin-top: 2px;
     height: 250px;
     background: #eee;
+}
+#myphoto{
+    background: #eee;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+#myinfo a:hover{
+    color: #ff832c;
 }
 #footer{
     margin-top: 10px;
