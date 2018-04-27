@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>编程基础1</title>
+    <link rel="stylesheet" href="../../reset.css">
+    <link rel="stylesheet" href="../../subpapes.css">
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <div id="logol"><img src="../../image/logol.png" alt="logol"></div>
+        <ul id="nav">
+            <li><a href="../../index.html">首页教程</a></li>
+            <li><a href="">源码下载</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="lside">
+            <div id="contents">C语言教程目录</div>
+            <div id="lists">
+                <div class="chapter"><span class="channel-num">1</span><a href="1.html">编程基础</a></div>
+                <div class="litterchapter"><a href="1-1.html" style="background: gray">1.1通俗的理解什么是编程语言</a></div>
+                <div class="litterchapter"><a href="1-2.html">1.2C语言究竟是一门怎样的语言</a></div>
+                <div class="litterchapter"><a href="1-3.html">1.3C语言是菜鸟和大神的分水岭</a></div>
+                <div class="litterchapter"><a href="1-4.html">1.4初学者最常问的几个问题</a></div>
+                <div class="litterchapter"><a href="1-5.html">1.5C和C++到底什么关系</a></div>
+                <div class="litterchapter"><a href="1-6.html">1.6学了C语言到底能做什么</a></div>
+                <div class="litterchapter"><a href="1-7.html">1.7二进制、八进制和十六进制</a></div>
+                <div class="litterchapter"><a href="1-8.html">1.8不同进制之间的转换</a></div>
+                <div class="litterchapter"><a href="1-9.html">1.9数据在内存中的存储</a></div>
+                <div class="litterchapter"><a href="1-10.html">1.10载入内存，让程序运行起来</a></div>
+                <div class="litterchapter"><a href="1-11.html">1.11ASCII编码，将英文存储到计算机</a></div>
+                <div class="litterchapter"><a href="1-12.html">1.12GB2312编码和GBK编码，将中文存储到计算机</a></div>
+                <div class="litterchapter"><a href="1-13.html">1.13Unicode字符集，将全世界的文字存储到计算机</a></div>
+                <div class="litterchapter"><a href="1-14.html">1.14程序员的发展方向和薪水</a></div>
+                <div class="litterchapter"><a href="1-15.html">1.15为什么你觉得C语言什么都不能做，学了没用？</a></div>
+                <div class="litterchapter"><a href="1-16.html">1.16明白了这点才能拿高新</a></div>
+                <div class="chapter"><span class="channel-num">2</span><a href="c语言初探/2.html">c语言初探（搭建开发环境）</a></div>
+                <div class="chapter"><span class="channel-num">3</span><a href="变量和数据类型/3.html">变量和数据类型</a></div>
+                <div class="chapter"><span class="channel-num">4</span><a href="c语言输入输出/4.html">c语言输入输出</a></div>
+                <div class="chapter"><span class="channel-num">5</span><a href="c语言分支结构和循环结构/5.html">c语言分支结构和循环结构</a></div>
+                <div class="chapter"><span class="channel-num">6</span><a href="c语言数组/6.html">c语言数组</a></div>
+                <div class="chapter"><span class="channel-num">7</span><a href="c语言函数/7.html">c语言函数</a></div>
+                <div class="chapter"><span class="channel-num">8</span><a href="c语言预处理命令/8.html">c语言预处理命令</a></div>
+                <div class="chapter"><span class="channel-num">9</span><a href="c语言指针/9.html">c语言指针</a></div>
+                <div class="chapter"><span class="channel-num-big">10</span><a href="结构体、位运算以及其他/10.html">结构体、位运算以及其他</a></div>
+                <div class="chapter"><span class="channel-num-big">11</span><a href="c语言文件操作/11.html">c语言文件操作</a></div>
+                <div class="chapter"><span class="channel-num-big">12</span><a href="c语言调试/12.html">c语言调试</a></div>
+            </div>
+        </div>
+        <div id="rside">
+            <div id="art-body">学习编程语言之前，首先要搞清楚“编程语言”这个概念。<br>
+                <br>
+                很小的时候，父母就教我们开口说话，也教我们如何理解别人讲话的意思。经过长时间的熏陶和自我学习，我们竟然在不知不觉中学会了说话，同时也能听懂其他小朋友说话的意思了，我们开始向父母要零花钱买零食和玩具、被欺负了向父母倾诉……<br>
+                <br>
+                我们说的是汉语，是“中国语言”，只要把我们的需求告诉父母，父母就会满足，我们用“中国语言”来控制父母，让父母做我们喜欢的事情。<br>
+                <br>
+                “中国语言”有固定的格式，每个汉字代表的意思不同，我们必须正确的表达，父母才能理解我们的意思。例如让父母给我们10元零花钱，我们会说“妈妈给我10块钱吧，我要买小汽车”。如果我们说“10元给我汽车小零花钱妈妈”，或者“妈妈给我10亿人民币，我要买F-22”，妈妈就会觉得奇怪，听不懂我们的意思，或者理解错误，责备我们。<br>
+                <br>
+                我们通过有固定格式和固定词汇的“语言”来控制他人，让他人为我们做事情。语言有很多种，包括汉语、英语、法语、韩语等，虽然他们的词汇和格式都不一样，但是可以达到同样的目的，我们可以选择任意一种语言去控制他人。<br>
+                <br>
+                <span style="color:#b22222;">同样，我们也可以通过”语言“来控制计算机，让计算机为我们做事情，这样的语言就叫做</span><span style="color:#008000;">编程语言（</span><span style="color:#008000;">Programming Language</span><span style="color:#008000;">）</span><span style="color:#b22222;">。</span><br>
+                <br>
+                编程语言也有固定的格式和词汇，我们必须经过学习才会使用，才能控制计算机。<br>
+                <br>
+                编程语言有很多种，常用的有C语言、C++、Java、C#、Python、PHP、JavaScript、Go语言、Objective-C、Swift、汇编语言等，每种语言都有自己擅长的方面，例如：<br>
+                <table>
+                    <tbody>
+                    <tr>
+                        <th width="90">
+                            编程语言</th>
+                        <th>
+                            主要用途</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            C/C++</td>
+                        <td>
+                            C++ 是在C语言的基础上发展起来的，C++ 包含了C语言的所有内容，C语言是C++的一个部分，它们往往混合在一起使用，所以统称为 C/C++。C/C++主要用于PC软件开发、Linux开发、游戏开发、单片机和嵌入式系统。</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Java</td>
+                        <td>
+                            Java 是一门通用型的语言，可以用于网站后台开发、Android 开发、PC软件开发，近年来又涉足了大数据领域（归功于 Hadoop 框架的流行）。</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            C#</td>
+                        <td>
+                            C# 是微软开发的用来对抗 Java 的一门语言，实现机制和 Java 类似，不过 C# 显然失败了，目前主要用于 Windows 平台的软件开发，以及少量的网站后台开发。</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Python</td>
+                        <td>
+                            Python 也是一门通用型的语言，主要用于系统运维、网站后台开发、数据分析、人工智能、云计算等领域，近年来势头强劲，增长非常快。</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            PHP</td>
+                        <td>
+                            PHP 是一门专用型的语言，主要用来开发网站后台程序。</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            JavaScript</td>
+                        <td>
+                            JavaScript 最初只能用于网站前端开发，而且是前端开发的唯一语言，没有可替代性。近年来由于 Node.js 的流行，JavaScript 在网站后台开发中也占有了一席之地，并且在迅速增长。</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Go语言</td>
+                        <td>
+                            Go语言是 2009 年由 Google 发布的一款编程语言，成长非常迅速，在国内外已经有大量的应用。Go 语言主要用于服务器端的编程，对 C/C++、Java 都形成了不小的挑战。</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Objective-C<br>
+                            Swift</td>
+                        <td>
+                            Objective-C 和 Swift 都只能用于苹果产品的开发，包括 Mac、MacBook、iPhone、iPad、iWatch 等。</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            汇编语言</td>
+                        <td>
+                            汇编语言是计算机发展初期的一门语言，它的执行效率非常高，但是开发效率非常低，所以在常见的应用程序开发中不会使用汇编语言，只有在对效率和实时性要求极高的关键模块才会考虑汇编语言，例如操作系统内核、驱动、仪器仪表、工业控制等。</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                可以将不同的编程语言比喻成各国语言，为了表达同一个意思，可能使用不同的语句。例如，表达“世界你好”的意思：
+                <ul>
+                    <li>
+                        汉语：世界你好；</li>
+                    <li>
+                        英语：Hello World</li>
+                    <li>
+                        法语：Bonjour tout le monde</li>
+                </ul>
+                <br>
+                在编程语言中，同样的操作也可能使用不同的语句。例如，在屏幕上显示“C语言中文网”：
+                <ul>
+                    <li>
+                        C语言：puts("C语言中文网");</li>
+                    <li>
+                        PHP：echo "C语言中文网";</li>
+                    <li>
+                        Java：System.out.println("C语言中文网");</li>
+                </ul>
+                <br>
+                编程语言类似于人类语言，由直观的词汇组成，我们很容易就能理解它的意思，例如在C语言中，我们使用 <code>puts</code> 这个词让计算机在屏幕上显示出文字；puts 是 output string（输出字符串）的缩写。<br>
+                <br>
+                使用 puts 在屏幕上显示“C语言中文网”：
+                <pre class="info-box">puts("C语言中文网");</pre>
+                我们把要显示的内容放在<code>("</code>和<code>")</code>之间，并且在最后要有<code>;</code>。你必须要这样写，这是固定的格式。<br>
+                <br>
+                总结：<span style="color:#b22222;">编程语言是用来控制计算机的一系列指令（I</span><span style="color:#b22222;">nstruction</span><span style="color:#b22222;">），它有固定的格式和词汇（不同编程语言的格式和词汇不一样），必须遵守，否则就会出错，达不到我们的目的。</span><br>
+                <br>
+                C语言（C Language）是编程语言的一种，学习C语言，主要是学习它的格式和词汇。下面是一个C语言的完整例子，它会让计算机在屏幕上显示”C语言中文网“。
+                <blockquote>
+                    <p>
+                        这个例子主要演示C语言的一些固有格式和词汇，看不懂的读者不必深究，也不必问为什么是这样，后续我们会逐步给大家讲解。</p>
+                </blockquote>
+                <pre class="info-box">#include &lt;stdio.h&gt;
+int main(){
+    puts("C语言中文网");
+    return 0;
+}</pre>
+                这些具有特定含义的词汇、语句，按照特定的格式组织在一起，就构成了<span style="color:#008000;">源代码（Source Code）</span>，也称<span style="color:#008000;">源码</span>或<span style="color:#008000;">代码（Code）</span>。<br>
+                <br>
+                那么，C语言肯定规定了源代码中每个词汇、语句的含义，也规定了它们该如何组织在一起，这就是<span style="color: rgb(0, 128, 0);">语法（Syntax）</span>。它与我们学习英语时所说的“语法”类似，都规定了如何将特定的词汇和句子组织成能听懂的语言。<br>
+                <br>
+                编写源代码的过程就叫做<span style="color:#008000;">编程（Program）</span>。从事编程工作的人叫<span style="color:#008000;">程序员（Programmer）</span>。程序员也很幽默，喜欢自嘲，经常说自己的工作辛苦，地位低，像农民一样，所以称自己是”码农“，就是写代码的农民。也有人自嘲称是”程序猿“。<br>
+            </div>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>
