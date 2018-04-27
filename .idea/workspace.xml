@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b22d3435-0a1e-4b11-a199-f8b0e7252642" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++/c++.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++/编程基础/1-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++/编程基础/1-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++/编程基础/1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++/编程基础/2-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++/编程基础/2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.html" beforeDir="false" afterPath="$PROJECT_DIR$/java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subpapes.css" beforeDir="false" afterPath="$PROJECT_DIR$/subpapes.css" afterDir="false" />
-    </list>
+    <list default="true" id="b22d3435-0a1e-4b11-a199-f8b0e7252642" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -64,7 +51,7 @@
       <file leaf-file-name="cl_1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cLanguage/编程基础/cl_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="416">
               <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
             </state>
           </provider>
@@ -190,16 +177,15 @@
       <updated>1524711971338</updated>
       <workItem from="1524711973108" duration="7271000" />
       <workItem from="1524755674130" duration="2266000" />
-      <workItem from="1524764437870" duration="10439000" />
+      <workItem from="1524764437870" duration="10662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19976000" />
+    <option name="totallyTimeSpent" value="20199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20131771" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -452,7 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cLanguage/编程基础/cl_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="416">
           <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
         </state>
       </provider>
