@@ -65,6 +65,9 @@
     color: #888;
     float: right;
 }
+#myinfo{
+    padding-left: 10px;
+}
 .four{
     width: 326px;
     height: 200px;

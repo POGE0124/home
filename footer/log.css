@@ -1,0 +1,10 @@
+#container{
+    margin: 0 auto;
+    position: center;
+    width: 1200px;
+    background: #32f0ff;
+}
+#guild{
+    text-align: center;
+    background: #69ff2b;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的工作日志</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="log.css">
+    <script language="JavaScript">
+        function tick() {
+            var years,months,days,hours, minutes, seconds;
+            var intYears,intMonths,intDays,intHours, intMinutes, intSeconds;
+            var today;
+            today = new Date(); //系统当前时间
+            intYears = today.getFullYear(); //得到年份,getFullYear()比getYear()更普适
+            intMonths = today.getMonth() + 1; //得到月份，要加1
+            intDays = today.getDate(); //得到日期
+            intHours = today.getHours(); //得到小时
+            intMinutes = today.getMinutes(); //得到分钟
+            intSeconds = today.getSeconds(); //得到秒钟
+            years = intYears + "-";
+
+            if(intMonths < 10 ){
+                months = "0" + intMonths +"-";
+            } else {
+                months = intMonths +"-";
+            }
+            if(intDays < 10 ){
+                days = "0" + intDays +" ";
+            } else {
+                days = intDays + " ";
+            }
+            if (intHours == 0) {
+                hours = "00:";
+            } else if (intHours < 10) {
+                hours = "0" + intHours+":";
+            } else {
+                hours = intHours + ":";
+            }
+            if (intMinutes < 10) {
+                minutes = "0"+intMinutes+":";
+            } else {
+                minutes = intMinutes+":";
+            }
+            if (intSeconds < 10) {
+                seconds = "0"+intSeconds+" ";
+            } else {
+                seconds = intSeconds+" ";
+            }
+            timeString = years+months+days+hours+minutes+seconds;
+            Clock.innerHTML = timeString;
+            window.setTimeout("tick();", 1000);
+        }
+        window.onload = tick;
+    </script>
+</head>
+<body>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TR bgColor=#73a3d4 height=40>
+        <TD noWrap align=right width=209 ><SPAN id="Clock"></SPAN></TD>
+    </TR>
+</TABLE>
+<div id="container">
+    <div id="guild">
+        <h1 style="text-align: center">胡坡的工作日志</h1>
+    </div>
+    <div>
+    <table border="1" align="center">
+        <tr>
+            <th></th>
+            <th>工作日志记录</th>
+            <th>工作备注</th>
+        </tr>
+        <tr>
+            <th>工作内容</th>
+            <td>1.学习了c语言指针<br>
+                2.学习了HTML怎么写表格</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>工作总结</th>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>建议或备注事项</th>
+            <td></td>
+            <td></td>
+        </tr>
+
+
+    </table>
+    </div>
+</div>
+</body>
+</html>
