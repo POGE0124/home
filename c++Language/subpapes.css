@@ -1,0 +1,110 @@
+.clr{
+    clear: both;
+}
+#container{
+    margin: 0 auto;
+    position: center;
+    height: 750px;
+    width: 90%;
+    background: white;
+}
+#header{
+    height: 42px;
+    background: #227c12;
+}
+#logol{
+    margin-top: 4px;
+    margin-left: 10px;
+    float: left;
+}
+.channel-num{
+    background: #FF832C;
+    padding: 2px 8px 2px 8px;
+}
+.channel-num-big{
+    background: #FF832C;
+    padding: 2px 2px 2px 3px;
+}
+#nav li{
+    margin-top: 8px;
+    margin-left: 6px;
+    float: left;
+
+}
+#nav li a{
+    margin-left: 6px;
+    color: white;
+    font-size: 20px;
+}
+.chapter{
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.chapter a:hover{
+    background: #5dfff8;
+
+}
+
+#main{
+    height: 800px;
+}
+#lside{
+    width: 20%;
+    border: 1px solid #eee;
+    float: left;
+}
+#contents{
+    background: #37ee13;
+    height: 30px;
+    font-size: 17px;
+    padding-top: 8px;
+    padding-left: 10px;
+    position: center;
+}
+#motto{
+    background: #37ee13;
+    height: 30px;
+    font-size: 17px;
+    padding-top: 8px;
+    padding-left: 10px;
+    position: center;
+}
+#motto p{
+    margin-left: 40%;
+    color: red;
+}
+#rside{
+    margin: 0 auto;
+    width: 79%;
+    border: 1px solid #ee7978;
+    float: right;
+    height: 900px;
+    font-size: 24px;
+    background: #f4edff;
+}
+#art-body table {
+    margin: auto;
+    border-collapse: collapse;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+#welcome{
+    padding-top: 150px;
+    padding-left: 180px;
+    font-size: 48px;
+}
+#footer{
+    float: left;
+    height: 40px;
+    background: red;
+}

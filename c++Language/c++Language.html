@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>C++语言教程</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="subpapes.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".sub").hide();
+            $("div#chapter_1").click(function () {
+                $(".sub").hide();
+                $("div#section_1_1").slideDown('fast');
+                $("div#section_1_2").slideDown('fast');
+                $("div#section_1_3").slideDown('fast');
+                $("div#section_1_4").slideDown('fast');
+                $("div#section_1_5").slideDown('fast');
+                $("div#section_1_6").slideDown('fast');
+                $("div#section_1_7").slideDown('fast');
+            });
+            $("div#chapter_2").click(function () {
+                $(".sub").hide();
+                $("div#section_2_1").slideDown('fast');
+                $("div#section_2_2").slideDown('fast');
+                $("div#section_2_3").slideDown('fast');
+            });
+            // 子页
+            $("div#section_1_1").click(function () {
+                $("#main_contents").attr('src','1_1.html');
+            });
+            $("div#section_1_3").click(function () {
+                $("#main_contents").attr('src','http://www.baidu.com');
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <div id="logol"><img src="image/logol.png" alt="logol"></div>
+        <ul id="nav">
+            <li><a href="../index.html">首页教程</a></li>
+            <li><a href="">源码下载</a></li>
+            <li style="margin-left: 20% ; color: white; font-size: 20px;">欢迎来到What杂货铺！开启你的C++语言学习之旅吧！</li>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="lside">
+            <div id="contents">C++语言教程目录</div>
+            <div id="lists">
+                <div class="chapter" id="chapter_1"><span class="channel-num">1</span><a href="#">面向对象程序设计概述</a></div>
+                <div class="sub" id="section_1_1"><a href="#">1、什么是面向对象</a></div>
+                <div class="sub" id="section_1_2"><a href="#">2、一种新的程序设计范型</a></div>
+                <div class="sub" id="section_1_3"><a href="#">3、面向对象程序设计的基本概念</a></div>
+                <div class="sub" id="section_1_4"><a href="#">4、面向对象程序设计的基本特征</a></div>
+                <div class="sub" id="section_1_5"><a href="#">5、为什么要用面向对象</a></div>
+                <div class="sub" id="section_1_6"><a href="#">6、传统程序设计方法的局限性</a></div>
+                <div class="sub" id="section_1_7"><a href="#">7、面向对象程序设计方法的主要优点</a></div>
+                <div class="sub" id="section_1_8"><a href="#">8、几种典型的面向对象程序设计语言</a></div>
+                <div class="chapter" id="chapter_2"><span class="channel-num">2</span><a href="#">c++概述</a></div>
+                <div class="sub" id="section_2_1"><a href="#">1、c++的起源</a></div>
+                <div class="sub" id="section_2_2"><a href="#">2、c++源程序的构成</a></div>
+                <div class="sub" id="section_2_3"><a href="#">3、c++在面向对象方面的扩充</a></div>
+
+                <div class="chapter" id="chapter_3"><span class="channel-num">3</span><a href="#">类和对象</a></div>
+                <div class="chapter" id="chapter_4"><span class="channel-num">4</span><a href="#">派生类与继承</a></div>
+                <div class="chapter" id="chapter_5"><span class="channel-num">5</span><a href="#">多态性</a></div>
+                <div class="chapter" id="chapter_6"><span class="channel-num">6</span><a href="#">模板与异常处理</a></div>
+                <div class="chapter" id="chapter_7"><span class="channel-num">7</span><a href="#">c++的流类库与输入输出</a></div>
+                <div class="chapter" id="chapter_8"><span class="channel-num">8</span><a href="#">面向对象程序设计方法与实现</a></div>
+            </div>
+        </div>
+        <div id="rside">
+            <div id="motto"><p> 越简单越优秀！</p></div>
+            <iframe name="ifd" onload="this.height=ifd.document.body.scrollHeight"  scrolling="no" width="100%" height="100%" frameborder="0"  id="main_contents" src="http://www.baidu.com" frameborder="0"></iframe>
+
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>
