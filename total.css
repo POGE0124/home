@@ -1,6 +1,14 @@
 .clr{
     clear: both;
 }
+#onclock{
+    float: left;
+}
+#toutiao{
+    float: left;
+    margin-left: 20%;
+    color: red;
+}
 #container{
     margin: 0 auto;
     position: center;
