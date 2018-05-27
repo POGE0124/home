@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b22d3435-0a1e-4b11-a199-f8b0e7252642" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++Language/3_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/1_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/1_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/2_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/2_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/subpages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myhome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myhome.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++Language/1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/c++Language/1_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++Language/c++Language.html" beforeDir="false" afterPath="$PROJECT_DIR$/c++Language/c++Language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++Language/subpapes.css" beforeDir="false" afterPath="$PROJECT_DIR$/c++Language/subpapes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure/data_structure.html" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/data_structure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,8 +49,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+            <state relative-caret-position="324">
+              <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -219,7 +205,6 @@
         <option value="$PROJECT_DIR$/c++Language/subpapes.css" />
         <option value="$PROJECT_DIR$/c++Language/4_1.html" />
         <option value="$PROJECT_DIR$/c++Language/4_2.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/c++Language/c++Language.html" />
         <option value="$PROJECT_DIR$/data_structure/subpapes.css" />
         <option value="$PROJECT_DIR$/data_structure/data_structure.html" />
@@ -231,6 +216,7 @@
         <option value="$PROJECT_DIR$/data_structure/subpages.css" />
         <option value="$PROJECT_DIR$/test/test.html" />
         <option value="$PROJECT_DIR$/test/test_coder.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -254,23 +240,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="newhome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newhome" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,14 +310,24 @@
       <workItem from="1527325900003" duration="10909000" />
       <workItem from="1527384142615" duration="3385000" />
       <workItem from="1527387875479" duration="436000" />
+      <workItem from="1527391410111" duration="668000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1527391482007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527391482007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94323000" />
+    <option name="totallyTimeSpent" value="94991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="1" width="1378" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15785609" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -362,6 +353,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/test_coder.html">
@@ -690,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        <state relative-caret-position="324">
+          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
         </state>
       </provider>
     </entry>
