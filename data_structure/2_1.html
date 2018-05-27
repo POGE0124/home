@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="subpages.css">
+    <title>Title</title>
+</head>
+<body>
+<div id="arc-body">线性表是数据结构中最简单的数据存储结构，可以理解为&ldquo;线性的表&rdquo;。<br />
+    <br />
+    线性，是说数据在逻辑结构上具有线性关系。<span style="color:#b22222;">将具有线性关系的数据存储到计算机中所使用的存储结构称为</span><span style="color:#008000;">线性表</span><span style="color:#b22222;">。</span><br />
+    <br />
+    <div class="info-box">
+        线性关系指的是数据一个挨着一个，总体呈线性分布。就好比&ldquo;老鹰捉小鸡&rdquo;游戏中，小鸡们全都手拉着手，它们之间的关系就可以称为<span style="color:#008000;">线性关系</span>。</div>
+    <br />
+    换句话说，线性表中的数据在逻辑结构上相互挨着（手牵手），中间没有空隙。每个数据元素，在它的前面可以找到唯一一个数据和它挨着，后面也只有一个数据和它挨着。这样，数据在逻辑结构呈线性分布，称这样的存储结构为线性表。<br />
+    <blockquote>
+        <p>
+            线性表只对数据的逻辑结构有要求，根据实际存储的物理结构的不同（分散存储或者集中存储），线性表还可以进行更详细的分类，本节最后会详细介绍。</p>
+    </blockquote>
+    <h2>
+        前趋和后继</h2>
+    对于线性表中的数据来说，位于当前数据之前的数据统称为&ldquo;<span style="color:#008000;">前趋元素</span>&rdquo;，前边紧挨着的数据称为&ldquo;<span style="color:#008000;">直接前趋</span>&rdquo;；同样，后边的数据统称为&ldquo;<span style="color:#008000;">后继元素</span>&rdquo;，后边紧挨着的数据称为&ldquo;<span style="color:#008000;">直接后继</span>&rdquo;。除非在线性表中插入或者删除数据元素，否则数据之间的关系不会改变。
+    <div style="text-align: center;">
+        <br />
+        <img alt="" src="image/2_1.png" style="width: 449px; height: 78px;" /></div>
+    <div style="text-align: center;">
+        <span style="text-align: center;">&nbsp; 图1 前趋和后继元素</span></div>
+    <h2>
+        数据元素、数据项、记录和文件</h2>
+    在线性表中，无论数据本身由多少种数据类型（每一种被称为一个&ldquo;<span style="color:#008000;">数据项</span>&rdquo;）组成，每一条数据被称为&ldquo;<span style="color:#008000;">数据元素</span>&rdquo;。<br />
+    <br>
+    数据元素是数据结构考虑的基本单位，作为一个整体处理，数据项则是描述数据元素的各项特征的
+        好比工商管理管理的是各个企业，那么企业的名字、规模、董事长等等，前者就是数据元素，后者就是数据项
+    <br />
+    如果数据元素本身包含的数据项非常多，就可以称这个数据元素为一个&ldquo;<span style="color:#008000;">记录</span>&rdquo;，多条记录组成一个&ldquo;<span style="color:#008000;">文件</span>&rdquo;。
+    <h2>
+        线性表的特点</h2>
+    用线性表存储的数据有两个特点：<br />
+    <br />
+    <ul>
+        <li>
+            存储的数据本身的类型一定保持相同，是int型就都是int型，是结构体就都是一种结构体。</li>
+        <li>
+            数据一旦用线性表存储，各个数据元素之间的相对位置就固定了。</li>
+    </ul>
+    <blockquote>
+        相对位置，指的是各数据元素在逻辑结构上的前后次序。</blockquote>
+    <h2>
+        线性表的分类</h2>
+    <span style="color:#b22222;">之前讲过，逻辑结构上相邻的数据在实际的物理存储中有两种形式：</span><span style="color:#008000;">分散存储</span><span style="color:#b22222;">和</span><span style="color:#008000;">集中存储</span><span style="color:#b22222;">。</span><br />
+    <br />
+    考虑到这两种情况，线性表分为两种，分别解决两种情况下数据的存储问题：
+    <ul>
+        <li>
+            数据元素在内存中集中存储，采用顺序表示结构，简称<span style="color:#008000;">&ldquo;顺序存储&rdquo;</span>；</li>
+        <li>
+            数据元素在内存中分散存储，采用链式表示结构，简称<span style="color:#008000;">&ldquo;链式存储&rdquo;</span>。</li>
+    </ul>
+</div>
+</body>
+</html>

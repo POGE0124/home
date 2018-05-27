@@ -6,7 +6,7 @@
     <title>C++语言教程</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="subpapes.css">
-    <script src="jquery-3.3.1.min.js"></script>
+    <script src="../jquery-3.3.1.min.js"></script>
     <script>
         $(document).ready(function () {
             $(".sub").hide();
@@ -26,12 +26,30 @@
                 $("div#section_2_2").slideDown('fast');
                 $("div#section_2_3").slideDown('fast');
             });
+            $("div#chapter_3").click(function () {
+                $(".sub").hide();
+                $("div#section_3_1").slideDown('fast');
+                $("div#section_3_2").slideDown('fast');
+                $("div#section_3_3").slideDown('fast');
+            });
+            $("div#chapter_4").click(function () {
+                $(".sub").hide();
+                $("div#section_4_1").slideDown('fast');
+                $("div#section_4_2").slideDown('fast');
+                $("div#section_4_3").slideDown('fast');
+            });
             // 子页
             $("div#section_1_1").click(function () {
                 $("#main_contents").attr('src','1_1.html');
             });
             $("div#section_1_3").click(function () {
                 $("#main_contents").attr('src','1_3.html');
+            });
+            $("div#section_3_1").click(function () {
+                $("#main_contents").attr('src','3_1.html');
+            });
+            $("div#section_4_1").click(function () {
+                $("#main_contents").attr('src','4_1.html');
             });
         });
     </script>
@@ -65,7 +83,12 @@
                 <div class="sub" id="section_2_3"><a href="#">3、c++在面向对象方面的扩充</a></div>
 
                 <div class="chapter" id="chapter_3"><span class="channel-num">3</span><a href="#">类和对象</a></div>
+                <div class="sub" id="section_3_1"><a href="#">1、类与对象的基本概念</a></div>
+                <div class="sub" id="section_3_2"><a href="#">2、结构体与类</a></div>
+
+
                 <div class="chapter" id="chapter_4"><span class="channel-num">4</span><a href="#">派生类与继承</a></div>
+                <div class="sub" id="section_4_1"><a href="#">1、c++继承的概念及语法</a></div>
                 <div class="chapter" id="chapter_5"><span class="channel-num">5</span><a href="#">多态性</a></div>
                 <div class="chapter" id="chapter_6"><span class="channel-num">6</span><a href="#">模板与异常处理</a></div>
                 <div class="chapter" id="chapter_7"><span class="channel-num">7</span><a href="#">c++的流类库与输入输出</a></div>
@@ -73,8 +96,8 @@
             </div>
         </div>
         <div id="rside">
-            <div id="motto"><p> 越简单越优秀！</p></div>
-            <iframe name="ifd" onload="this.height=ifd.document.body.scrollHeight"  scrolling="no" width="100%" height="100%" frameborder="0"  id="main_contents" src="1_1.html" frameborder="0"></iframe>
+            <div id="motto"><p> Follow Excellence. Success will chase you</p></div>
+            <iframe name="ifd" onload="this.height=ifd.document.body.scrollHeight"  scrolling="no" width="100%" height="100%" frameborder="0"  id="main_contents" src="1_1.html" ></iframe>
 
         </div>
     </div>
